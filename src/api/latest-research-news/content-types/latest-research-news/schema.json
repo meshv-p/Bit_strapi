@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "latest_research_newss",
+  "info": {
+    "singularName": "latest-research-news",
+    "pluralName": "latest-research-newss",
+    "displayName": "Latest research news"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "date": {
+      "type": "date"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

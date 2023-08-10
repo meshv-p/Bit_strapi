@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "latest_patents",
+  "info": {
+    "singularName": "latest-patent",
+    "pluralName": "latest-patents",
+    "displayName": "Latest patent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

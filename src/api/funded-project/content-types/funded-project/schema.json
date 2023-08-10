@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "funded_projects",
+  "info": {
+    "singularName": "funded-project",
+    "pluralName": "funded-projects",
+    "displayName": "Funded project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "funding_agency": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "float"
+    },
+    "duration": {
+      "type": "date"
+    },
+    "branch_name": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::branch.branch"
+    }
+  }
+}

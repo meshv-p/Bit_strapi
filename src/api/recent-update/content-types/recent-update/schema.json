@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recent_updates",
+  "info": {
+    "singularName": "recent-update",
+    "pluralName": "recent-updates",
+    "displayName": "Recent updates"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "department_gallaries",
+  "info": {
+    "singularName": "department-gallary",
+    "pluralName": "department-gallaries",
+    "displayName": "Department gallary"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "branch_name": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::branch.branch"
+    }
+  }
+}

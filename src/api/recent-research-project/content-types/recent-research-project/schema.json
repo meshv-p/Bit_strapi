@@ -4,7 +4,8 @@
   "info": {
     "singularName": "recent-research-project",
     "pluralName": "recent-research-projects",
-    "displayName": "Recent research project"
+    "displayName": "Recent research project",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,17 +16,23 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "description": {
       "type": "richtext"
+    },
+    "branch": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::branch.branch"
     }
   }
 }
