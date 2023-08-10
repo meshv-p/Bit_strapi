@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * branch service
+ * ec-project service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::branch.branch');
+module.exports = createCoreService('api::ec-project.ec-project');

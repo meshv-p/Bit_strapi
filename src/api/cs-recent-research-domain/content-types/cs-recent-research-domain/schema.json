@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "recent_research_projects",
+  "collectionName": "cs_recent_research_domains",
   "info": {
-    "singularName": "recent-research-project",
-    "pluralName": "recent-research-projects",
-    "displayName": "ec_recent_research_domain",
+    "singularName": "cs-recent-research-domain",
+    "pluralName": "cs-recent-research-domains",
+    "displayName": "cs_recent_research_domain",
     "description": ""
   },
   "options": {
@@ -17,7 +17,7 @@
     },
     "image": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": false,
       "allowedTypes": [
         "images",

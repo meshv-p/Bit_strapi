@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "funded_projects",
+  "collectionName": "ec_projects",
   "info": {
-    "singularName": "funded-project",
-    "pluralName": "funded-projects",
-    "displayName": "cs_project",
-    "description": ""
+    "singularName": "ec-project",
+    "pluralName": "ec-projects",
+    "displayName": "ec_project"
   },
   "options": {
     "draftAndPublish": true

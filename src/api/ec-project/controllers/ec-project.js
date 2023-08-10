@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * branch controller
+ * ec-project controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::branch.branch');
+module.exports = createCoreController('api::ec-project.ec-project');

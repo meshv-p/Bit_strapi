@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "funded_projects",
+  "collectionName": "chemical_projects",
   "info": {
-    "singularName": "funded-project",
-    "pluralName": "funded-projects",
-    "displayName": "cs_project",
-    "description": ""
+    "singularName": "chemical-project",
+    "pluralName": "chemical-projects",
+    "displayName": "chemical_project"
   },
   "options": {
     "draftAndPublish": true

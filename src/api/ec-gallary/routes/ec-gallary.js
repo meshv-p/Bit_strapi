@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * branch router
+ * ec-gallary router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::branch.branch');
+module.exports = createCoreRouter('api::ec-gallary.ec-gallary');

@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "recent_research_projects",
+  "collectionName": "chemical_recent_research_domains",
   "info": {
-    "singularName": "recent-research-project",
-    "pluralName": "recent-research-projects",
-    "displayName": "ec_recent_research_domain",
-    "description": ""
+    "singularName": "chemical-recent-research-domain",
+    "pluralName": "chemical-recent-research-domains",
+    "displayName": "chemical_recent_research_domain"
   },
   "options": {
     "draftAndPublish": true
@@ -16,15 +15,14 @@
       "type": "string"
     },
     "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": true
     },
     "description": {
       "type": "richtext"

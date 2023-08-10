@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "department_gallaries",
+  "collectionName": "ec_gallaries",
   "info": {
-    "singularName": "department-gallary",
-    "pluralName": "department-gallaries",
-    "displayName": "cs_gallary",
-    "description": ""
+    "singularName": "ec-gallary",
+    "pluralName": "ec-gallaries",
+    "displayName": "ec_gallary"
   },
   "options": {
     "draftAndPublish": true
@@ -13,15 +12,14 @@
   "pluginOptions": {},
   "attributes": {
     "image": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": true
     },
     "status": {
       "type": "boolean"
